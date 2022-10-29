@@ -153,17 +153,17 @@ def roomdinogar():
                 return
     
 def roomdinoattic():
-    print("There is now a stegasaurus in the attic")
+    print("There is now a stegosaurus in the attic")
 
 roomattic()
 
 #It is now 2022 and we have decided to restart this project from the beginning. 
 
 
-#The goal is to unlock the attic door
+#The goal is to unlock the attic door and find some friends
 
 #Room 1: The Attic
-# You are in a dusty attic. You can look around. There is a Door, Window, and dusty floor with an old rug.
+# You are in a dusty attic. This is boring, we should look around. Maybe we can find to unlock the door, or maybe dinf some friends. You can look around. There is a Door, Window, and dusty floor with an old rug.
 # The Door: It is a very locked door. 
 # The Floor: You find a key hidden hidden under the rug. Too bad you can't pick it up.
 #The Window: There is a large tree outside with branches sticking through a broken windown pane. You can use this to climb down into the garden
@@ -190,6 +190,7 @@ roomattic()
 
 #Room 3: The Library
 # You are in a lonely library with a great big book in the center. 
+# Your options are, read book, don't read book, leave room
 # You can read the book or not. Not reading the book results in taking a 5 hour nap in a spot of sun. And you return to your two options of read or no. 
 #If you take a nap: Its time for a catnap anyways. Where did that spot of sun go? Five hours later...
 #If you read the book: You pronounce the cooky words of the friendship spell.Congratulations, you just relased Dinosaurs into the world. Good Luck finding them all before Willow the Witch returns
@@ -221,7 +222,7 @@ roomattic()
 # The Tree: You scale the tree easily and tentatively approach the scaly thing that blocks your way into the attic.
 # Tree Poke: the tail sends you flying into back into the fountain, spawning you in the Pterodactyl library
 # Tree Poke: The tail pokes back, sending you flying into the fountain"
-# Tree Pounce: Pouncing on the tail allows you to enter the Stegasaurus Attic
+# Tree Pounce: Pouncing on the tail allows you to enter the Stegosaurus Attic
 # Tree Pounce: The tail swooshes powerfully, pulling you into the attic in a poof of dust bunnies
 # Tree Walk: Walking on the tail sends you back into the Dino garden. 
 # Tree Walk: The spiny tail shivers, shaking you into the flowerbeds. Luckily, you are not harmed
@@ -229,5 +230,42 @@ roomattic()
 
 
 #Room 6: Stegosaurus in the Attic
-# A rather large Stagosaurus takes up most of this space, with its tail still handing out the window. He is currently eating the rug
-# 
+# A rather large Stagosaurus takes up most of this space. He is currently eating the rug
+#(You can now exit and enter the window to the garden as you please. If you go back to the garden you don't have to play with the tail? You can just walk in?)
+# In this room, you can try to open the locked door, go through the window, examine the floor, or play with the stegosaurus tail. 
+
+#Tail: Same options as before, Poke, Pounce, Walk, or Stare. None of these do anything unless the dinosaur is turned around. In which case, Poke let's you out. 
+# Tail Poke: The tail pokes back, putting another hole in the window
+#Tail poke: If you have turned the dino around, poking puts a hole in the door. You are free!
+# Tail Pounce: The tail swooshes powerfully, pulling you around the attic in a poof of dust bunnies
+#Tail Stare: You stare with much annoyance at the tail, but it is hard to have a staring contest with a dinosaur tail
+#Tail Walk: he spiny tail shivers, throwing you up into the air. Luckily, you are not harmed.
+
+#Door: The door is still very locked.
+#Door: After the dino punches a hole in the door: The door has a large horn shaped hole in it. It's a perfect exit for you!
+#Door: Jump through the door. You are free! This leads you to the Kitchen
+
+#Window: jumping through the window takes you to the garden
+# Floor: The key is gone. The stegosaurs may have already eaten it. He seems to be enjoying the rug. 
+# Floor: You have the option to drag the rug. Doing so turns the dinosaur around. His tail is now facing the locked door. 
+
+
+#Room 7: The Kitchen
+# This is Willow's tidy, warm kitchen, with a breakfast table and flower vase. There is also another book in here. 
+# You have all these new friends, you should throw a tea party!
+# You look at the table of contents in the book. 
+
+# Your options are read the T, E, or A spell. Type in different words with these letters to cast the spell. 
+#Tea- Spawn a buttercup yellow teapot with matching teacups. The pot is nice and warm and fills the room with a black, cinnamony smell
+#Tae - Nothing happens
+#Ate- Scrumpious little crustless sandwhichs appear. Of course, there are cucumber options for the dinos and tuna for you
+#Aet-  Nothing happens
+#Eat- Lovely bunt cakes appear at each table spot. Do dinos eat cake? They do at your parties!
+#Eta- An hourglass appears. It looks like Willow is coming home soon, but you don't care. You have a tea party to plan
+
+# Your last option is "Close the book and start the party!"
+# When you have closed, the dinosaurs come to the table and you all have a wonderful tea party. 
+# you have one spell left to read the Z..z..z spell. 
+#Reading the Z spell sends the Dinos home and you have a long nap and only wake up when Willow comes home. 
+# While you definitely smashed up the house a bit, your efforts allowed Willow to find her pendant. She forgives you. 
+#Of course, she does. You are a very cute cat after all. 
