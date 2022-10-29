@@ -8,6 +8,7 @@
 #     elif user_input == "Floor":
 #         return print("A thin layer of dust barely hides a key")
 
+
 def roomattic():
     print("You are in a dusty attic")
     print ("Look around?", "Door", "Window", "Floor")
@@ -60,7 +61,7 @@ def roomgarden():
                 flower_input = input()
                 if flower_input == "Tigerlily":
                     print("You picked a flower")
-                elif flower_input == "Red Poppies":
+                elif flower_input == "Red Poppy":
                     print("You picked a flower")
                 elif flower_input == "Blue Bell":
                     print("You picked a flower")
@@ -84,7 +85,7 @@ def roomlibrary():
         user_input = input()
         if user_input == "Yes":
             print("You pronounce the cooky words of the friendship spell.")
-            print("Congratulations, you just relased Dinosaurs onto the world. Good Luck finding them all before Willow returns")
+            print("Congratulations, you just relased Dinosaurs into the world. Good Luck finding them all before Willow the Witch returns")
             roomdinolib()
             return
         elif user_input == "No":
@@ -98,7 +99,7 @@ def roomdinolib():
     roomdinogar()
     
 def roomdinogar():
-    print("You are in a flowering garden. There must be some dinos around here somewhere.")
+    print("You are in a flowering garden. There must be some dinos around here somewhere")
     print("Look around?","Topiary", "Fountain", "Flowerbeds", "Tree")
     while(True):
         user_input = input()
@@ -144,6 +145,7 @@ def roomdinogar():
         elif user_input == "Flowerbeds":
                 print("This was a lovely flowerbed but some larger herbavore seems to have eaten all the flowers.You see something glimmering in the freshly churned dirt")
                 print("You have found a pendant. Its a lovely emerald green, which is probably why you did not see it in the flowers, and bears the inscription Willow")
+                roomdinogar ()
                 return
            
         elif user_input == "Fountain":
@@ -154,3 +156,78 @@ def roomdinoattic():
     print("There is now a stegasaurus in the attic")
 
 roomattic()
+
+#It is now 2022 and we have decided to restart this project from the beginning. 
+
+
+#The goal is to unlock the attic door
+
+#Room 1: The Attic
+# You are in a dusty attic. You can look around. There is a Door, Window, and dusty floor with an old rug.
+# The Door: It is a very locked door. 
+# The Floor: You find a key hidden hidden under the rug. Too bad you can't pick it up.
+#The Window: There is a large tree outside with branches sticking through a broken windown pane. You can use this to climb down into the garden
+
+
+#Room 2: The Garden
+# You are in a flowering garden. You can look around. There is a Topiary, a large curling bush shaped like a duck, a Flower Garden, a Foutain, and the Tree
+# Climbing the Tree takes you back to Room 1- the Attic
+# At this point, the Topiary does nothing.
+
+# The Flower Bed: There is a lovely flowerbed full of flowers. You can pick a Tigerlily, a Blue Bell, a Red Poppy, and a Violet.
+#Flower Bed: If you don't pick any flowers maybe return with "You prefer catnip anyways"
+# Flower Bed: Also, since it may be vauge what the game is asking you do to, you say If at first you don't succeed, try try again, or is it go fry a hen? in case they don't put Red Poppy in properly or something
+
+# The Fountain: If you answer a ridde correctly by dropping in two items in the correct order you can access the library
+#Foutain: Since the spout isn't working, your relfection is mirrored perfectly in this pristinely, glassy fountain. Enscribed on the base is a riddle.
+# Fountain's riddle: Let it be said, if one means well, that is well red, enter via bell
+# Fountain: Here you can drop things into the fountain from your inventory. Dropping in a Red Poppy followed by a Blue Bell will allow you to jump in and enter the library.
+# Fountain: If you drop in the Red Poppy: Water sputters from the fountain spout, rippling the surface. A portal is starting to form under the waves.
+# Fountain: If you drop in the Blue Bell after the Red Poppy: The fountain glows blue and you jump in with a splash. You have now entered the library
+#Fountain: If you don't put a Red Poppy first: You relflextion looks at you blankly
+# Fountain: If you don't put in a Blue Bell after the Poppy:The foutain gurgles unahappily
+
+
+#Room 3: The Library
+# You are in a lonely library with a great big book in the center. 
+# You can read the book or not. Not reading the book results in taking a 5 hour nap in a spot of sun. And you return to your two options of read or no. 
+#If you take a nap: Its time for a catnap anyways. Where did that spot of sun go? Five hours later...
+#If you read the book: You pronounce the cooky words of the friendship spell.Congratulations, you just relased Dinosaurs into the world. Good Luck finding them all before Willow the Witch returns
+
+
+# Reading the Book is the Flag that turns all three rooms into dinosaur filled rooms.
+
+
+#Room 4: Pterodactyl in the Library. Your only option is to leave
+#There is now a pterodactyl in the library. Maybe you should be moving on
+
+
+#Room 5: Dinos in the Garden
+#You are in a flowering garden. There must be some dinos around here somewhere
+# Here you can interact with the Topiary, examine the floorbed, or try to climb the tree. The Foutain no longer allows you into the library. 
+# Foutain: The portal is still open if you want to go visit the pyterodactyl. Then again do you really want to?
+
+#Flowerbed: Searching the floorbed adds Willow's pendant to your inventory
+#Flowerbed text: This was a lovely flowerbed but some larger herbavore seems to have eaten all the flowers.You see something glimmering in the freshly churned dirt
+#Flowerbed text cont: You have found a lovely emerald green pendant, with the inscription Willow. It's a little heavy to carry around your neck but nothing your grace can't handle
+
+#The Topiary: Here you can engage in a word battle with the now talking duck. Any kind of text will impress the duck and bring the dino out of hiding.
+#Topiary text: Here is a large curling bush shaped like a duck. A strange call comes from inside the duck, as if it were talking.
+# Topiary text cont: Challenge the duck to a word battle? Insert incredibly dope rythm here 
+# Topiary text cont: The duck is completely in awe of your poetry skills and a small parasaurolophus crawls out of its hiding spot in the duck's mouth
+
+#The Tree: When you try to climb the tree, you are blocked by a large spiky tail. Your options are Poke, Pounce, Walk Gently, or Stare in Annoyance
+# The Tree: This is the large oak tree with branches extending through the window pane of the attic. Something green and spiky is protruding out of the window
+# The Tree: You scale the tree easily and tentatively approach the scaly thing that blocks your way into the attic.
+# Tree Poke: the tail sends you flying into back into the fountain, spawning you in the Pterodactyl library
+# Tree Poke: The tail pokes back, sending you flying into the fountain"
+# Tree Pounce: Pouncing on the tail allows you to enter the Stegasaurus Attic
+# Tree Pounce: The tail swooshes powerfully, pulling you into the attic in a poof of dust bunnies
+# Tree Walk: Walking on the tail sends you back into the Dino garden. 
+# Tree Walk: The spiny tail shivers, shaking you into the flowerbeds. Luckily, you are not harmed
+# Tree Stare: This does nothing. You stare with much annoyance at the tail, but it is hard to have a staring contest with a dinosaur tail.
+
+
+#Room 6: Stegosaurus in the Attic
+# A rather large Stagosaurus takes up most of this space, with its tail still handing out the window. He is currently eating the rug
+# 
